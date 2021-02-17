@@ -8,6 +8,11 @@
     <title>Tim gant</title>
     <!--fonts-->
     <link fnt="/fonts/Thunderstorm.ttf" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@800&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Favicons -->
 
@@ -38,6 +43,7 @@
     />
     <link rel="stylesheet" href="/css/styles.css" />
   </head>
+
   <body>
     <h1>Tim Gant</h1>
 
@@ -47,7 +53,23 @@
       This is Tim, he's 24, a senior at EWU and an all around weird guy. But in
       the enjoyable funny sort of way, not the bad wierd
     </p>
+    <h2>
+      <form name="contact" method="POST" data-netlify="true">
+        <p>
+          <label>Your Name: <input type="text" name="name" /></label>
+        </p>
+        <p>
+          <label>Your Email: <input type="email" name="email" /></label>
+        </p>
 
+        <p>
+          <label>Message: <textarea name="message"></textarea></label>
+        </p>
+        <p>
+          <button type="submit">Send</button>
+        </p>
+      </form>
+    </h2>
     <script src="/js/scripts.js"></script>
   </body>
 </html>
