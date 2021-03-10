@@ -4,3 +4,16 @@ body {
 h1 {
   font-family: "Rubik", sans-serif;
 }
+img {
+  width: 150px;
+}
+/* LightGallery Position Correction */
+div.lg-item,
+div.lg-loaded,
+div.lg-current,
+div.lg-complete {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
