@@ -1,5 +1,8 @@
 body {
-  background: antiquewhite;
+  background: #b1f3fc;
+  margin: auto;
+  max-width: 720px;
+  text-align: center;
 }
 h1 {
   font-family: "Rubik", sans-serif;
@@ -12,6 +15,7 @@ div.lg-item,
 div.lg-loaded,
 div.lg-current,
 div.lg-complete {
+  color: gray;
   top: 0;
   right: 0;
   bottom: 0;
