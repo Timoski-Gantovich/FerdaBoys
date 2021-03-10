@@ -1,13 +1,18 @@
-// Function Definition
-import confetti from "https://cdn.skypack.dev/canvas-confetti@1.3.3";
+console.log("OK");
 
-// Call/Invoke/Use it
-confetti();
+// Store Background Classes
+const backgrounds = ["bg0", "bg1", "bg2"];
 
-// on click
-window.addEventListener("click", () => {
-  confetti({
-    spread: 500,
-    gravity: 0.05
-  });
-});
+// Get Random Number
+var numRand;
+numRand = Math.floor(Math.random() * backgrounds.length);
+
+// Get element
+let pageBackground = document.querySelector("body");
+
+// Set class name from stored values
+pageBackground.className = backgrounds[numRand];
+
+// Use/Invoke/Call Light Gallery Library
+
+lightGallery(document.getElementById("gallery"));
