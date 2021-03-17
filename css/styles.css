@@ -1,21 +1,31 @@
 body {
-  background: #b1f3fc;
+  background-image: url("http://i.imgur.com/CFjU41M.jpg");
   margin: auto;
-  max-width: 720px;
+  background-repeat: no-repeat;
+  background-size: 100% 42%;
+  background-color: lightblue;
+
+  max-width: 1920px;
+  max-height: 1080px;
   text-align: center;
 }
 h1 {
   font-family: "Rubik", sans-serif;
+  color: black;
+}
+body {
+  color: black;
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 img {
-  width: 150px;
+  width: 360px;
 }
 /* LightGallery Position Correction */
 div.lg-item,
 div.lg-loaded,
 div.lg-current,
 div.lg-complete {
-  color: gray;
+  position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
